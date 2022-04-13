@@ -1,5 +1,5 @@
 **My coffee-shop-project** <br>
-This is my module 1 capstone project.
+This is my module 1 capstone project whose main focus is to test my understanding in github,githubflows,version controll and to demonstrate the ability to submit a project for code review.
 
 **Built With:**</br>
 *HTML</br>
