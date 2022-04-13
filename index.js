@@ -123,7 +123,6 @@ for (let i = 0; i < firstMobileSpeakers.length; i++) {
 </div>
   `;
   firstMobileSpeakers[i].appendChild(speakerDiv);
-
 }
 
 for (let i = 2; i < moreSpeakers.length; i++) {
@@ -145,5 +144,4 @@ for (let i = 2; i < moreSpeakers.length; i++) {
 </div>
   `;
   moreSpeakers[i].appendChild(speakerDiv);
-
 }
