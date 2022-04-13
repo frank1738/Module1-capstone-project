@@ -83,7 +83,7 @@ Links.forEach((item) => {
   });
 });
 
-for (let i = 0; i < desktopSpeakers.length; i++) {
+for (let i = 0; i < desktopSpeakers.length; i += 1) {
   const speakerDiv = document.createElement('div');
   speakerDiv.classList.add('speaker-div');
   speakerDiv.innerHTML = `
@@ -104,7 +104,7 @@ for (let i = 0; i < desktopSpeakers.length; i++) {
   desktopSpeakers[i].appendChild(speakerDiv);
 }
 
-for (let i = 0; i < firstMobileSpeakers.length; i++) {
+for (let i = 0; i < firstMobileSpeakers.length; i += 1) {
   const speakerDiv = document.createElement('div');
   speakerDiv.classList.add('speaker-div');
   speakerDiv.innerHTML = `
@@ -125,7 +125,7 @@ for (let i = 0; i < firstMobileSpeakers.length; i++) {
   firstMobileSpeakers[i].appendChild(speakerDiv);
 }
 
-for (let i = 2; i < moreSpeakers.length; i++) {
+for (let i = 2; i < moreSpeakers.length; i += 1) {
   const speakerDiv = document.createElement('div');
   speakerDiv.classList.add('speaker-div');
   speakerDiv.innerHTML = `
