@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 * {
   padding: 0;
@@ -21,7 +21,7 @@
 .quote {
   font-size: 1.3rem;
   font-family: 'COCOGOOSE', sans-serif;
-  background-image: url("./images/textBg.jpg");
+  background-image: url('./images/textBg.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 1.3rem;
@@ -31,7 +31,7 @@
 .header {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 1.6rem;
-  background-image: url("./images/textBg.jpg");
+  background-image: url('./images/textBg.jpg');
   background-position: 20% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -92,7 +92,7 @@
 .chess-icon {
   width: 25%;
   position: absolute;
-  top:0%;
+  top: 0%;
   right: 30%;
 }
 
@@ -378,13 +378,13 @@
 
 .first-div {
   background-color: #ec5242;
-  background-image: url("./images/img1.jpg");
+  background-image: url('./images/img1.jpg');
   background-size: cover;
   background-blend-mode: multiply;
 }
 
 .second-div {
-  background-image: url("./images/istock-628483496.jpg");
+  background-image: url('./images/istock-628483496.jpg');
   background-size: cover;
   background-color: #ec5242;
   background-blend-mode: multiply;
@@ -645,7 +645,7 @@
 
   .speaker-img {
     width: 40%;
-    height:8rem;
+    height: 8rem;
   }
 
   .speaker-div {
@@ -681,9 +681,8 @@
 
   .oracle {
     width: 30%;
-  }t
-
-  .microsoft {
+  }
+  t .microsoft {
     width: 30%;
   }
 
