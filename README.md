@@ -14,7 +14,7 @@ This is my module 1 capstone project.
 *Change the current working directory to the location where you want the cloned directory.</br>
 *Type git clone, and then paste the URL you copied earlier.</br>
 *Press Enter to create your local clone.</br>
-**[Live Demo]** (https://frank1738.github.io/coffee-shop-project-/)</br>
+**[Live Demo]** (https://frank1738.github.io/Module1-capstone-project/)</br>
 
 
 
