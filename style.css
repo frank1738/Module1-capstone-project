@@ -1,5 +1,3 @@
-@import url("http://fonts.cdnfonts.com/css/cocogoose");
-
 * {
   padding: 0;
   margin: 0;
@@ -7,11 +5,11 @@
 }
 
 .container {
-  font-family: COCOGOOSE, sans-serif;
   background-image: url("./images/white-concrete-wall.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  font-family: poppins, sans-serif;
 }
 
 .fa-bars {
@@ -347,7 +345,7 @@
 
 .gallery {
   margin-top: 1rem;
-  font-family: COCOGOOSE, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .img-about {
