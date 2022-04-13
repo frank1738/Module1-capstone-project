@@ -49,6 +49,10 @@
   display: none;
 }
 
+.desktop-mini-nav {
+  display: none;
+}
+
 .logo {
   width: 55%;
   background-color: grey;
@@ -792,5 +796,27 @@
 
   .about-footer-description {
     color: whitesmoke;
+  }
+
+  .desktop-mini-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #272a31;
+    padding: 0.3rem;
+  }
+
+  .mini-links {
+    display: flex;
+    width: 25%;
+  }
+
+  .mini-item {
+    list-style: none;
+    margin-right: 1.2rem;
+  }
+
+  .mini-link {
+    text-decoration: none;
+    color: white;
   }
 }
