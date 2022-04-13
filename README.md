@@ -20,10 +20,10 @@ This is my module 1 capstone project whose main focus is to test my understandin
 👤 Me
 * GitHub:https://github.com/frank1738
 * Twitter: https://twitter.com/frankhiggins08
-* LinkedIn: www.linkedin.com/in/frankline-osoro-b526ba18b
-**Aknowledgement** <br>
-*This design was insipired by Cindy Shin in Behance and I give her credits for doing a great job!<br>
-Here is the link to the original website(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+* LinkedIn: www.linkedin.com/in/frankline-osoro-b526ba18b</br>
+**Aknowledgement** </br>
+*This design was insipired by Cindy Shin in Behance and I give her credits for doing a great job!</br>
+Here is the link to the original website(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).</nr>
 [link to Creative Commons license of the design ](https://creativecommons.org/licenses/by-nc/4.0/)
 
 **Show your support**
