@@ -21,7 +21,7 @@
 
 .quote {
   font-size: 1.3rem;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'poppins', sans-serif;
   background-image: url('./images/bcg/text.jpg');
   background-position: 50% 50%;
   -webkit-background-clip: text;
@@ -31,7 +31,7 @@
 }
 
 .header {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 1.6rem;
   background-image: url('./images/bcg/text.jpg');
   background-position: 50% 50%;
