@@ -9,19 +9,21 @@
 .container {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0% 2%;
   font-family: poppins, sans-serif;
-  background-image: url(./images/white-concrete-wall.jpg);
+  background-color: black;
 }
 
 .fa-bars {
   font-size: 2.5rem;
+  color: orange;
 }
 
 .quote {
   font-size: 1.3rem;
   font-family: 'COCOGOOSE', sans-serif;
-  background-image: url('./images/textBg.jpg');
+  background-image: url('./images/bcg/text.jpg');
+  background-position: 50% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 1.3rem;
@@ -31,8 +33,8 @@
 .header {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 1.6rem;
-  background-image: url('./images/textBg.jpg');
-  background-position: 20% 50%;
+  background-image: url('./images/bcg/text.jpg');
+  background-position: 50% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 1rem;
@@ -63,7 +65,7 @@
 .date {
   font-size: 1.3rem;
   margin-top: 1.5rem;
-  color: #272a31;
+  color: white;
   opacity: 0.8;
 }
 
@@ -78,11 +80,14 @@
 }
 
 .introduction {
-  padding: 0 1.3rem;
-  background-repeat: no-repeat;
+  background-color: rgba(0 0 0 /60%);
+  padding: 1.5rem 1.3rem;
+  background-image: url(./images/bcg/conference.jpg);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
+  background-attachment: fixed;
   background-blend-mode: multiply;
+  padding-bottom: 3rem;
 }
 
 .description.first {
@@ -109,7 +114,7 @@
 
 .description-venue {
   font-family: Lato, sans-serif;
-  color: #272a31;
+  color: white;
   opacity: 0.8;
   font-size: 1.2rem;
   margin-top: 0.3rem;
@@ -120,12 +125,7 @@
   background-color: #272a31;
   display: flex;
   flex-direction: column;
-  margin-top: 3.5rem;
-}
-
-.fa-podium {
-  color: black;
-  font-size: 5rem;
+  margin-top: -1rem;
 }
 
 .lecture {
@@ -139,6 +139,13 @@
   padding: 1.3rem 0.8rem;
   background-color: rgba(255 255 255/15%);
   margin-top: 0.8rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.schedule:hover {
+  background-color: black;
+  transform: scale(0.95);
 }
 
 .fa-person-chalkboard {
@@ -198,6 +205,12 @@
   background-color: white;
   font-family: Lato, sans-serif;
   padding: 0 1.3rem;
+  background-image: linear-gradient(
+      180.45deg,
+      rgba(209, 208, 208, 0.9) 0.75%,
+      rgba(255, 255, 255, 0.9) 61.94%
+    ),
+    url(./images/bodyBcg.jpeg);
 }
 
 .speaker-img {
@@ -306,15 +319,16 @@
 
 .email {
   font-family: Lato, sans-serif;
-  color: #272a31;
+  color: white;
   font-size: 1.25rem;
   text-decoration: none;
-  border-bottom: 1px solid #272a31;
+  border-bottom: 1px solid white;
   padding: 0.25rem 0;
 }
 
 .contacts {
   padding: 1rem;
+  color: white;
 }
 
 .logo-section {
@@ -372,8 +386,9 @@
 
 .img-about {
   margin-top: 1rem;
-  padding: 4rem 0;
   color: whitesmoke;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .header-gallery {
@@ -381,10 +396,6 @@
 }
 
 .first-div {
-  background-color: #ec5242;
-  background-image: url('./images/img1.jpg');
-  background-size: cover;
-  background-blend-mode: multiply;
 }
 
 .second-div {
@@ -393,6 +404,30 @@
   background-color: #ec5242;
   background-blend-mode: multiply;
   margin-bottom: 3rem;
+}
+
+.img-flow {
+  transition: all 0.5s ease-in-out;
+}
+
+.img-flow:hover {
+  transform: scale(1.2);
+}
+
+.first-flow {
+  background-color: #ec5242;
+  background-image: url('./images/img1.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 4rem 0;
+}
+
+.second-flow {
+  background-color: #ec5242;
+  background-image: url('./images/istock-628483496.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 4rem 0;
 }
 
 .partner-icons {
@@ -508,6 +543,7 @@
 
   .desk-link-item {
     list-style: none;
+    transition: all 0.5s ease-in-out;
   }
 
   .desktop-menu {
@@ -534,6 +570,11 @@
     font-family: Lato, sans-serif;
     color: #272a31;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .desk-link:hover {
+    color: #ec5242;
   }
 
   .home-link {
@@ -599,7 +640,7 @@
     display: flex;
     padding: 0;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     align-self: center;
   }
 
@@ -818,5 +859,13 @@
   .mini-link {
     text-decoration: none;
     color: white;
+  }
+
+  .select {
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .desk-link-item:hover {
+    transform: scale(1.3);
   }
 }

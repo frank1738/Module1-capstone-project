@@ -9,6 +9,9 @@ const Links = document.querySelectorAll('.link');
 const desktopSpeakers = document.querySelectorAll('.speaker-desktop');
 const firstMobileSpeakers = document.querySelectorAll('.speaker.first');
 const moreSpeakers = document.querySelectorAll('.speaker.more');
+const select = document.querySelectorAll('.visit');
+
+let selected = '';
 
 const speakerData = [
   {
@@ -145,3 +148,16 @@ for (let i = 2; i < moreSpeakers.length; i += 1) {
   `;
   moreSpeakers[i].appendChild(speakerDiv);
 }
+
+select.forEach((item) => {
+  item.addEventListener('click', (event) => {
+    if (selected) {
+      selected.classList.remove('select');
+      selected = event.target;
+      selected.classList.add('select');
+    } else {
+      selected = event.target;
+      selected.classList.add('select');
+    }
+  });
+});
