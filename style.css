@@ -218,6 +218,8 @@
   object-fit: cover;
   height: 10rem;
   margin-right: 1rem;
+  box-shadow: 5px 7px 3px lightgrey;
+  border-radius: 0.2rem;
 }
 
 .speaker {
@@ -859,6 +861,10 @@
   .mini-link {
     text-decoration: none;
     color: white;
+  }
+
+  .mini-link:hover {
+    color: #ec5242;
   }
 
   .select {
