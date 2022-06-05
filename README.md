@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
-![image](https://user-images.githubusercontent.com/98453979/171994749-12e8ba40-b098-4f46-b8d6-11640d4eb95c.png)
+# JavaScript Forum page
 
+- This is my  first  Microverse Capstone Project. My idea was to come up to come up with a JavaScript annual Forum Page. This helped me cement my understanding in github, githubflows, version controll and to demonstrate the ability to submit a project for code review.
 
-- The leaderboard website fetches score data  submitted by different players  from an API and displays them. It also allows you to submit your score which will then be displayed after hitting the refresh button.
+![image](https://user-images.githubusercontent.com/98453979/172067098-20534d7f-cbd3-48b9-8256-e805140b5ffe.png)
+
 
 ## Built With
 
@@ -45,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo by running the command
    ```sh
-    git clone https://github.com/frank1738/Module1-capstone-project.git
+    git clone https://github.com/frank1738/Module1-capstone-project
    ```
 2. Open the directory of the project
    ```sh
@@ -81,7 +82,7 @@ Feel free to check the [issues page](../../issues/).
 
 - This design was insipired by Cindy Shin in Behance and I give her credits for doing a great job!
 - Here is the link to the original website [Original website](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-- [Licence ](https://creativecommons.org/licenses/by-nc/4.0/)
+- [Original Licence ](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 📝 License
 
