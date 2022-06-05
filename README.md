@@ -5,7 +5,9 @@
 - This is my  first  Microverse Capstone Project. My idea was to come up to come up with a JavaScript annual Forum Page. This helped me cement my understanding in github, githubflows, version controll and to demonstrate the ability to submit a project for code review.
 
 ![image](https://user-images.githubusercontent.com/98453979/172067098-20534d7f-cbd3-48b9-8256-e805140b5ffe.png)
-![image](https://user-images.githubusercontent.com/98453979/172067190-3d32fe63-5f9a-4400-9946-e25fa36be020.png)
+
+
+
 
 
 ## Built With
